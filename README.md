@@ -5,7 +5,7 @@
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![Pyro](https://img.shields.io/badge/Pyro-1.9+-orange.svg)](https://pyro.ai/)
 
-## DMM: a mathematical Background
+## DMM: a mathematical background
 
 Deep Markov Models combine the interpretability of state-space models with the expressiveness of deep neural networks.
 
@@ -138,8 +138,6 @@ The DMM learns a 16-dimensional latent space that captures the underlying dynami
 
 ### Output Structure
 
-All results are organized in a structured directory for reproducibility:
-
 ```
 analysis_results/
 ├── figures/
@@ -169,24 +167,3 @@ analysis_results/
 
 - Krishnan, R. G., Shalit, U., & Sontag, D. (2017). [Structured Inference Networks for Nonlinear State Space Models](https://arxiv.org/abs/1609.09869). AAAI.
 - [Pyro DMM Tutorial](https://pyro.ai/examples/dmm.html)
-
-## Citation
-
-If you use this code in your research, please cite:
-
-```bibtex
-@software{dmm2024,
-  author = {SilviaCleva},
-  title = {Deep Markov Model: Probabilistic Time Series Modeling},
-  year = {2024},
-  url = {https://github.com/SilviaCleva/dmm}
-}
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
