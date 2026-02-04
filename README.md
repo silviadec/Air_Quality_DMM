@@ -140,27 +140,21 @@ The DMM learns a 16-dimensional latent space that captures the underlying dynami
 
 ```
 analysis_results/
-├── figures/
-│   ├── training/           # Model training diagnostics
-│   │   └── training_loss.png
-│   ├── forecasts/          # Probabilistic predictions
-│   │   ├── forecast_PM10.png
-│   │   ├── forecast_temp.png
-│   │   ├── forecast_humidity.png
-│   │   ├── forecast_rain.png
-│   │   └── forecast_wind.png
-│   └── analysis/           # Latent space interpretation
-│       ├── feature_latent_correlation.png
-│       ├── latent_trajectory.png
-│       ├── regime_characteristics.png
-│       ├── regime_timeline.png
-│       └── anomaly_detection.png
-└── data/
-    ├── forecasts/          # Numerical predictions
-    │   └── forecast_results.csv
-    └── analysis/           # Analysis statistics
-        ├── feature_latent_correlations.csv
-        └── regime_characteristics.csv
+figures/
+├── training/           # Model training diagnostics
+│   └── training_loss.png
+├── forecasts/          # Probabilistic predictions
+│   ├── forecast_PM10.png
+│   ├── forecast_temp.png
+│   ├── forecast_humidity.png
+│   ├── forecast_rain.png
+│   └── forecast_wind.png
+└── analysis/           # Latent space interpretation
+    ├── feature_latent_correlation.png
+    ├── latent_trajectory.png
+    ├── regime_characteristics.png
+    ├── regime_timeline.png
+    └── anomaly_detection.png
 ```
 
 ## References
